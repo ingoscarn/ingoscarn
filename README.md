@@ -66,9 +66,3 @@ Also maintaining production data pipelines at Koltin: `Airbyte → dbt → Dagst
   <img src="https://img.shields.io/badge/Dagster-2A2F3D?style=for-the-badge&logo=dagster&logoColor=white" alt="Dagster">
   <img src="https://img.shields.io/badge/Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white" alt="Airflow">
 </p>
-
-<br>
-
-<p align="center">
-  <a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=ingoscarn&theme=tokyonight&hide_border=true&short_numbers=true&date_format=M%20j%5B%2C%20Y%5D&mode=weekly&card_width=800&background=0A0B16" alt="GitHub streak"></a>
-</p>
