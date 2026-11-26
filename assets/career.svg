@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="180" viewBox="0 0 1280 180">
+<defs><linearGradient id="t" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22d3ee"/><stop offset=".5" stop-color="#a855f7"/><stop offset="1" stop-color="#f472b6"/></linearGradient>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0a0b16"/><stop offset="1" stop-color="#11132a"/></linearGradient></defs>
+<rect x="1" y="1" width="1278" height="178" rx="22" fill="url(#bg)" stroke="url(#t)" stroke-opacity=".45"/>
+<text x="40" y="44" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="13" letter-spacing="1.5" fill="#22d3ee">10+ YEARS</text>
+<line x1="140" y1="90" x2="1139" y2="90" stroke="#ffffff" stroke-opacity=".12" stroke-width="2"/>
+<line x1="140" y1="90" x2="1139" y2="90" stroke="url(#t)" stroke-width="2.5" stroke-dasharray="1000" stroke-dashoffset="1000"><animate attributeName="stroke-dashoffset" values="1000;0;0" keyTimes="0;.6;1" dur="5s" repeatCount="indefinite"/></line>
+<circle r="5" cy="90" fill="#ffffff"><animate attributeName="cx" values="140;1139;1139" keyTimes="0;.6;1" dur="5s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;1;0" keyTimes="0;.6;.7" dur="5s" repeatCount="indefinite"/></circle><circle cx="140" cy="90" r="11" fill="#0a0b16" stroke="url(#t)" stroke-width="2.5"/>
+<circle cx="140" cy="90" r="4" fill="#22d3ee"/>
+<text x="140" y="140" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#f4f4fb">Telecom</text>
+<text x="140" y="166" text-anchor="middle" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="13" fill="#8d92b8"></text><circle cx="473" cy="90" r="11" fill="#0a0b16" stroke="url(#t)" stroke-width="2.5"/>
+<circle cx="473" cy="90" r="4" fill="#60a5fa"/>
+<text x="473" y="140" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#f4f4fb">Fintech</text>
+<text x="473" y="166" text-anchor="middle" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="13" fill="#8d92b8"></text><circle cx="806" cy="90" r="11" fill="#0a0b16" stroke="url(#t)" stroke-width="2.5"/>
+<circle cx="806" cy="90" r="4" fill="#a855f7"/>
+<text x="806" y="140" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#f4f4fb">AI</text>
+<text x="806" y="166" text-anchor="middle" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="13" fill="#8d92b8"></text><circle cx="1139" cy="90" r="11" fill="#0a0b16" stroke="url(#t)" stroke-width="2.5"/>
+<circle cx="1139" cy="90" r="4" fill="#f472b6"/>
+<text x="1139" y="140" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#f4f4fb">Founder</text>
+<text x="1139" y="166" text-anchor="middle" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="13" fill="#8d92b8"></text>
+</svg>
