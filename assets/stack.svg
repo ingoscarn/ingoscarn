@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="346" viewBox="0 0 1280 346">
+<defs><linearGradient id="t" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22d3ee"/><stop offset=".5" stop-color="#a855f7"/><stop offset="1" stop-color="#f472b6"/>
+<animateTransform attributeName="gradientTransform" type="translate" values="-.3 0;.3 0;-.3 0" dur="9s" repeatCount="indefinite"/></linearGradient>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0a0b16"/><stop offset="1" stop-color="#11132a"/></linearGradient></defs>
+<rect x="1" y="1" width="1278" height="344" rx="22" fill="url(#bg)" stroke="url(#t)" stroke-opacity=".45"/>
+<text x="40" y="64" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="13" font-weight="700" letter-spacing="2" fill="#22d3ee">LANGUAGES</text>
+<line x1="40" y1="76" x2="300" y2="76" stroke="#22d3ee" stroke-opacity=".35"/><g transform="translate(40 92)">
+  <rect width="145" height="34" rx="17" fill="#ffffff" fill-opacity=".045" stroke="#ffffff" stroke-opacity=".1"/>
+  <circle cx="17" cy="17" r="5" fill="#3178c6"><animate attributeName="r" values="5;6.5;5" dur="2.6s" begin="0.00s" repeatCount="indefinite"/></circle>
+  <text x="31" y="22.5" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="16" fill="#e6e7f5">TypeScript</text>
+</g><g transform="translate(40 138)">
+  <rect width="104.9" height="34" rx="17" fill="#ffffff" fill-opacity=".045" stroke="#ffffff" stroke-opacity=".1"/>
+  <circle cx="17" cy="17" r="5" fill="#3776ab"><animate attributeName="r" values="5;6.5;5" dur="2.6s" begin="0.23s" repeatCount="indefinite"/></circle>
+  <text x="31" y="22.5" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="16" fill="#e6e7f5">Python</text>
+</g><g transform="translate(40 184)">
+  <rect width="114.3" height="34" rx="17" fill="#ffffff" fill-opacity=".045" stroke="#ffffff" stroke-opacity=".1"/>
+  <circle cx="17" cy="17" r="5" fill="#5fa04e"><animate attributeName="r" values="5;6.5;5" dur="2.6s" begin="0.46s" repeatCount="indefinite"/></circle>
+  <text x="31" y="22.5" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="16" fill="#e6e7f5">Node.js</text>
+</g><g transform="translate(40 230)">
+  <rect width="81.7" height="34" rx="17" fill="#ffffff" fill-opacity=".045" stroke="#ffffff" stroke-opacity=".1"/>
+  <circle cx="17" cy="17" r="5" fill="#e38c00"><animate attributeName="r" values="5;6.5;5" dur="2.6s" begin="0.69s" repeatCount="indefinite"/></circle>
+  <text x="31" y="22.5" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="16" fill="#e6e7f5">SQL</text>
+</g><text x="340" y="64" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="13" font-weight="700" letter-spacing="2" fill="#34d399">DATA</text>
+<line x1="340" y1="76" x2="600" y2="76" stroke="#34d399" stroke-opacity=".35"/><g transform="translate(340 92)">
+  <rect width="114.3" height="34" rx="17" fill="#ffffff" fill-opacity=".045" stroke="#ffffff" stroke-opacity=".1"/>
+  <circle cx="17" cy="17" r="5" fill="#615eff"><animate attributeName="r" values="5;6.5;5" dur="2.6s" begin="1.15s" repeatCount="indefinite"/></circle>
+  <text x="31" y="22.5" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="16" fill="#e6e7f5">Airbyte</text>
+</g><g transform="translate(340 138)">
+  <rect width="74.2" height="34" rx="17" fill="#ffffff" fill-opacity=".045" stroke="#ffffff" stroke-opacity=".1"/>
+  <circle cx="17" cy="17" r="5" fill="#ff694b"><animate attributeName="r" values="5;6.5;5" dur="2.6s" begin="1.38s" repeatCount="indefinite"/></circle>
+  <text x="31" y="22.5" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="16" fill="#e6e7f5">dbt</text>
+</g><g transform="translate(340 184)">
+  <rect width="114.3" height="34" rx="17" fill="#ffffff" fill-opacity=".045" stroke="#ffffff" stroke-opacity=".1"/>
+  <circle cx="17" cy="17" r="5" fill="#a6a8ff"><animate attributeName="r" values="5;6.5;5" dur="2.6s" begin="1.61s" repeatCount="indefinite"/></circle>
+  <text x="31" y="22.5" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="16" fill="#e6e7f5">Dagster</text>
+</g><g transform="translate(340 230)">
+  <rect width="114.3" height="34" rx="17" fill="#ffffff" fill-opacity=".045" stroke="#ffffff" stroke-opacity=".1"/>
+  <circle cx="17" cy="17" r="5" fill="#017cee"><animate attributeName="r" values="5;6.5;5" dur="2.6s" begin="1.84s" repeatCount="indefinite"/></circle>
+  <text x="31" y="22.5" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="16" fill="#e6e7f5">Airflow</text>
+</g><g transform="translate(340 276)">
+  <rect width="150" height="34" rx="17" fill="#ffffff" fill-opacity=".045" stroke="#ffffff" stroke-opacity=".1"/>
+  <circle cx="17" cy="17" r="5" fill="#4169e1"><animate attributeName="r" values="5;6.5;5" dur="2.6s" begin="2.07s" repeatCount="indefinite"/></circle>
+  <text x="31" y="22.5" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="16" fill="#e6e7f5">PostgreSQL</text>
+</g><text x="640" y="64" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="13" font-weight="700" letter-spacing="2" fill="#a855f7">CLOUD + IAC</text>
+<line x1="640" y1="76" x2="900" y2="76" stroke="#a855f7" stroke-opacity=".35"/><g transform="translate(640 92)">
+  <rect width="81.7" height="34" rx="17" fill="#ffffff" fill-opacity=".045" stroke="#ffffff" stroke-opacity=".1"/>
+  <circle cx="17" cy="17" r="5" fill="#ff9900"><animate attributeName="r" values="5;6.5;5" dur="2.6s" begin="2.30s" repeatCount="indefinite"/></circle>
+  <text x="31" y="22.5" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="16" fill="#e6e7f5">AWS</text>
+</g><g transform="translate(640 138)">
+  <rect width="168.8" height="34" rx="17" fill="#ffffff" fill-opacity=".045" stroke="#ffffff" stroke-opacity=".1"/>
+  <circle cx="17" cy="17" r="5" fill="#ff9900"><animate attributeName="r" values="5;6.5;5" dur="2.6s" begin="2.53s" repeatCount="indefinite"/></circle>
+  <text x="31" y="22.5" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="16" fill="#e6e7f5">Lambda + SAM</text>
+</g><g transform="translate(640 184)">
+  <rect width="142.5" height="34" rx="17" fill="#ffffff" fill-opacity=".045" stroke="#ffffff" stroke-opacity=".1"/>
+  <circle cx="17" cy="17" r="5" fill="#f38020"><animate attributeName="r" values="5;6.5;5" dur="2.6s" begin="2.76s" repeatCount="indefinite"/></circle>
+  <text x="31" y="22.5" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="16" fill="#e6e7f5">Cloudflare</text>
+</g><g transform="translate(640 230)">
+  <rect width="104.9" height="34" rx="17" fill="#ffffff" fill-opacity=".045" stroke="#ffffff" stroke-opacity=".1"/>
+  <circle cx="17" cy="17" r="5" fill="#8a3391"><animate attributeName="r" values="5;6.5;5" dur="2.6s" begin="2.99s" repeatCount="indefinite"/></circle>
+  <text x="31" y="22.5" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="16" fill="#e6e7f5">Pulumi</text>
+</g><g transform="translate(640 276)">
+  <rect width="185.1" height="34" rx="17" fill="#ffffff" fill-opacity=".045" stroke="#ffffff" stroke-opacity=".1"/>
+  <circle cx="17" cy="17" r="5" fill="#2088ff"><animate attributeName="r" values="5;6.5;5" dur="2.6s" begin="3.22s" repeatCount="indefinite"/></circle>
+  <text x="31" y="22.5" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="16" fill="#e6e7f5">GitHub Actions</text>
+</g><text x="940" y="64" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="13" font-weight="700" letter-spacing="2" fill="#f472b6">PRODUCT</text>
+<line x1="940" y1="76" x2="1200" y2="76" stroke="#f472b6" stroke-opacity=".35"/><g transform="translate(940 92)">
+  <rect width="95.5" height="34" rx="17" fill="#ffffff" fill-opacity=".045" stroke="#ffffff" stroke-opacity=".1"/>
+  <circle cx="17" cy="17" r="5" fill="#61dafb"><animate attributeName="r" values="5;6.5;5" dur="2.6s" begin="3.45s" repeatCount="indefinite"/></circle>
+  <text x="31" y="22.5" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="16" fill="#e6e7f5">React</text>
+</g><g transform="translate(940 138)">
+  <rect width="121.8" height="34" rx="17" fill="#ffffff" fill-opacity=".045" stroke="#ffffff" stroke-opacity=".1"/>
+  <circle cx="17" cy="17" r="5" fill="#009688"><animate attributeName="r" values="5;6.5;5" dur="2.6s" begin="3.68s" repeatCount="indefinite"/></circle>
+  <text x="31" y="22.5" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="16" fill="#e6e7f5">FastAPI</text>
+</g><g transform="translate(940 184)">
+  <rect width="123.7" height="34" rx="17" fill="#ffffff" fill-opacity=".045" stroke="#ffffff" stroke-opacity=".1"/>
+  <circle cx="17" cy="17" r="5" fill="#ffffff"><animate attributeName="r" values="5;6.5;5" dur="2.6s" begin="3.91s" repeatCount="indefinite"/></circle>
+  <text x="31" y="22.5" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="16" fill="#e6e7f5">Three.js</text>
+</g><g transform="translate(940 230)">
+  <rect width="104.9" height="34" rx="17" fill="#ffffff" fill-opacity=".045" stroke="#ffffff" stroke-opacity=".1"/>
+  <circle cx="17" cy="17" r="5" fill="#ffffff"><animate attributeName="r" values="5;6.5;5" dur="2.6s" begin="4.14s" repeatCount="indefinite"/></circle>
+  <text x="31" y="22.5" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="16" fill="#e6e7f5">Ollama</text>
+</g>
+</svg>

@@ -127,4 +127,35 @@ ${path}
   { id: 'oss-spinner-verbs', kicker: 'OPEN SOURCE', name: 'slack-spinner-verbs', a: '#f472b6', b: '#facc15', url: 'ingoscarn/slack-status-spinner-verbs',
     lines: ['Your Slack status as a thinking', 'spinner: Thinking..., Reasoning...,', 'rotating locally, your way.'], stack: 'Python · Slack API' },
 ].forEach((m) => card(m));
+
+// ---------- stack: grouped pills, one column per area ----------
+const groups = [
+  ['LANGUAGES', '#22d3ee', [['TypeScript', '#3178c6'], ['Python', '#3776ab'], ['Node.js', '#5fa04e'], ['SQL', '#e38c00']]],
+  ['DATA', '#34d399', [['Airbyte', '#615eff'], ['dbt', '#ff694b'], ['Dagster', '#a6a8ff'], ['Airflow', '#017cee'], ['PostgreSQL', '#4169e1']]],
+  ['CLOUD + IAC', '#a855f7', [['AWS', '#ff9900'], ['Lambda + SAM', '#ff9900'], ['Cloudflare', '#f38020'], ['Pulumi', '#8a3391'], ['GitHub Actions', '#2088ff']]],
+  ['PRODUCT', '#f472b6', [['React', '#61dafb'], ['FastAPI', '#009688'], ['Three.js', '#ffffff'], ['Ollama', '#ffffff']]],
+];
+const gw = 300, rowH = 46, top = 92;
+const sh = top + Math.max(...groups.map((g) => g[2].length)) * rowH + 24;
+let st = '';
+groups.forEach(([title, accent, items], gi) => {
+  const x = 40 + gi * gw;
+  st += `<text x="${x}" y="64" font-family="${MONO}" font-size="13" font-weight="700" letter-spacing="2" fill="${accent}">${title}</text>
+<line x1="${x}" y1="76" x2="${x + gw - 40}" y2="76" stroke="${accent}" stroke-opacity=".35"/>`;
+  items.forEach(([name, c], i) => {
+    const y = top + i * rowH, w = 46 + name.length * 9.4 + (name.match(/[A-Z]/g) || []).length * 2.5;
+    st += `<g transform="translate(${x} ${y})">
+  <rect width="${w}" height="34" rx="17" fill="#ffffff" fill-opacity=".045" stroke="#ffffff" stroke-opacity=".1"/>
+  <circle cx="17" cy="17" r="5" fill="${c}"><animate attributeName="r" values="5;6.5;5" dur="2.6s" begin="${((gi * 5 + i) * 0.23).toFixed(2)}s" repeatCount="indefinite"/></circle>
+  <text x="31" y="22.5" font-family="${SANS}" font-size="16" fill="#e6e7f5">${esc(name)}</text>
+</g>`;
+  });
+});
+writeFileSync(new URL('stack.svg', out), `<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="${sh}" viewBox="0 0 1280 ${sh}">
+<defs><linearGradient id="t" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22d3ee"/><stop offset=".5" stop-color="#a855f7"/><stop offset="1" stop-color="#f472b6"/>
+<animateTransform attributeName="gradientTransform" type="translate" values="-.3 0;.3 0;-.3 0" dur="9s" repeatCount="indefinite"/></linearGradient>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0a0b16"/><stop offset="1" stop-color="#11132a"/></linearGradient></defs>
+<rect x="1" y="1" width="1278" height="${sh - 2}" rx="22" fill="url(#bg)" stroke="url(#t)" stroke-opacity=".45"/>
+${st}
+</svg>`);
 console.log('ok');
