@@ -15,7 +15,7 @@
 
 <table>
   <tr>
-    <td width="50%"><a href="https://hireabl3.com"><img src="assets/hireabl3.svg" alt="Hireabl3" width="100%"></a></td>
+    <td width="50%"><a href="https://hireabl3.tech"><img src="assets/hireabl3.svg" alt="Hireabl3" width="100%"></a></td>
     <td width="50%"><img src="assets/dantemma.svg" alt="Dantemma Interactive" width="100%"></td>
   </tr>
 </table>

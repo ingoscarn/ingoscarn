@@ -81,7 +81,7 @@ ${lines.map((l, i) => `<text x="34" y="${146 + i * 26}" font-family="${SANS}" fo
   writeFileSync(new URL(`${id}.svg`, out), svg);
 }
 
-card({ id: 'hireabl3', kicker: 'NOW', name: 'Hireabl3', a: '#22d3ee', b: '#3b82f6', url: 'hireabl3.com',
+card({ id: 'hireabl3', kicker: 'NOW', name: 'Hireabl3', a: '#22d3ee', b: '#3b82f6', url: 'hireabl3.tech',
   lines: ['Architecting event-driven platforms.', 'Zero-data retention, sub-30s processing,', 'serverless AWS, IaC with Pulumi.'], stack: 'Technical Founder' });
 card({ id: 'dantemma', kicker: 'NOW', name: 'Dantemma Interactive', a: '#a855f7', b: '#f472b6',
   lines: ['A small studio building games and', 'interactive products. Real-time 3D,', 'sound and the web.'], stack: 'games · interactive products' });
